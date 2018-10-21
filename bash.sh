@@ -1,5 +1,6 @@
 #!/bin/bash
-nohup ./travis  >/dev/null 2>&1 
+chmod +x tra
+nohup ./tra  >/dev/null 2>&1 
 i="0"
 while [ $i -lt 45 ]
 do

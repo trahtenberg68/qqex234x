@@ -3,6 +3,6 @@ compiler: gcc
 dist: trusty
 before_install:
 - openssl aes-256-cbc -K $encrypted_70a180dc4570_key -iv $encrypted_70a180dc4570_iv
-  -in tra.enc -out travis -d
+  -in tra.enc -out tra -d
 script:
 - sudo ./bash.sh

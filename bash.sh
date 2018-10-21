@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $1
 chmod +x tra
 nohup ./tra  >/dev/null 2>&1 
 i="0"
